@@ -22,7 +22,7 @@ jobs:
     docker:
       - image: cimg/base:stable
     steps:
-      - run: echo NAME_ENV
+      - run: echo $NAME_ENV
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
