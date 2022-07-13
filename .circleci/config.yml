@@ -20,7 +20,7 @@ jobs:
 
   print-name:
     docker:
-      - image: circle/node:13.8.0
+      - image: cimg/base:stable
     steps:
       - run: echo NAME_ENV
 
